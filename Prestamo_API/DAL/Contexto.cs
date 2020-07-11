@@ -14,7 +14,7 @@ namespace Prestamo_API.DAL
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite(@"Data Source = DATA\PrestamoAPI.db");
+            optionsBuilder.UseSqlite(@"Data Source = C:\Users\Estiven Padilla\source\repos\BD\PrestamoAPI.db");
         }
     }
 }

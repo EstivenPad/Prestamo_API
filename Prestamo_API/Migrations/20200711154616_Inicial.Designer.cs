@@ -9,8 +9,8 @@ using Prestamo_API.DAL;
 namespace Prestamo_API.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20200701032325_Migracion_Inicial")]
-    partial class Migracion_Inicial
+    [Migration("20200711154616_Inicial")]
+    partial class Inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
